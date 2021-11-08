@@ -10,7 +10,7 @@
 
 <body>
 <script>
-    function kiemTraTuDoiXung(str) {
+    function kiemTraTuDoiXung                                           (str) {
         for (let i = 0; i < str.length / 2; i++) {
             if (str.charAt(i) != str.charAt(str.length - 1 - i)) {
                 return false
@@ -22,7 +22,7 @@
     function kiemTraTuDoiXungDQ(str) {
         let first = 0;
         let last = str.length - 1;
-        if (first >= last) {
+        if (first >= last)  {
             return true;
         } else if (str.charAt(first) != str.charAt(last)) {
             return false;
